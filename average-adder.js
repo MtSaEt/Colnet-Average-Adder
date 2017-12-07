@@ -20,7 +20,7 @@
 	function gradeFormat(num, isFinalGrade) {
 		return (isFinalGrade)
 		? Math.round(parseInt(num))
-		: parseInt(num).toFixed(2).toString().replace(".", ",");
+		: parseFloat(Math.round(num * 100) / 100).toFixed(2).replace(".", ",");
 	}
 
 	// Main function, displays & handles odd cases
