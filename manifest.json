@@ -7,7 +7,7 @@
 		"48": "icons/icon-48.png",
 		"128": "icons/icon-128.png" 
 	},
-	"version": "1.0",
+	"version": "0.0.1",
 	"content_scripts": [{
 		"matches": [ "https://enligne.cmontmorency.qc.ca/*" ],
 		"js": [ "jquery-3.2.1.min.js", "average-adder.js" ]

@@ -1,5 +1,10 @@
 (function() {
 
+	// Makes sur we're on the classes page
+	function proceed() {
+		return window.location.href.indexOf("infocours") > -1;
+	}
+
 	// Generates the indexes for the grades positions
 	function generateIndexes(size, hasExtraColumn) {
 		var indexes = [5];
@@ -60,5 +65,6 @@
 		}
 	}
 
-	buildClassAvg();
+	if (proceed())
+		buildClassAvg();
 })();

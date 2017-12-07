@@ -1,9 +1,10 @@
 # Colnet-Average-Adder
 
 Colnet-Average-Adder permet d'ajouter la **moyenne de la classe** dans la vue des notes d'un cours donné.
+
 Ils ont une colonnes "moyenne de la classe" mais ne fournissent pas la note globale de classe. C'est utile pour avoir une bonne idée de notre performance face aux autres.
 
-![Alt text](example.png?raw=true "Exemple")
+![Alt text](images/example.png?raw=true "Exemple")
 
 Pour ce faire,
 Il suffit simplement d'installer l'extension à partir
@@ -16,14 +17,18 @@ Il suffit simplement d'installer l'extension à partir
 2. [Suivre le tutoriel pour l'installer](https://www.cnet.com/how-to/how-to-install-chrome-extensions-manually/)
 3. Profit??
 
-### Cas Spéciaux
+### Cas Spécial
 
+Dans le cas où la note de la moyenne de classe est mise, mais pas le vôtre, l'extension prendra quand même en considération la note pour la moyenne de la classe.
 
-### Development
+Voir les carrés rouges dans l'image ci-dessous. (Les notes ne sont pas sur les mêmes bases, donc seulement attendre de recevoir votre note pour balancer)
+
+![Alt text](images/cas-special.png?raw=true "Cas Spécial")
+
+### Developpement
 S'il y a des bogues, seulement ouvrir un issue dans le projet GitHub ou même un pull request pour régler le problème.
 
-Toute aide est la bienvenue!
-
+(Shoutout à Salim pour m'avoir aidé à tester)
 ### License
 
 MIT License.
