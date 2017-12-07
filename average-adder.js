@@ -37,15 +37,6 @@
 
 			var extractedGrades = extractGrades(grades);
 			var extractedWeight = extractGrades(finalGradesWeight).map(e => { return e[1] || e[0]; }); // get only the final grades weight
-
-			/*console.log(indexes);
-			console.log(final_indexes);
-
-			console.log("Grades : " + grades);
-			console.log("finalGradesWeight : " + finalGradesWeight);
-			console.log("extractedGrades : " + extractedGrades);
-			console.log("extractedWeight : " + extractedWeight);
-			*/
 			
 			var totalGradeWeight = 0;
 
