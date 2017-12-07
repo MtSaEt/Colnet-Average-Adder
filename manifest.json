@@ -1,0 +1,9 @@
+{
+	"manifest_version": 2,
+	"name": "Colnet-Average-Adder",
+	"version": "1.0",
+	"content_scripts": [{
+		"matches": [ "https://enligne.cmontmorency.qc.ca/*" ],
+		"js": [ "jquery-3.2.1.min.js", "average-adder.js" ]
+	}]
+}
