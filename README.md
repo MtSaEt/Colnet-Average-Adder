@@ -4,7 +4,7 @@ Colnet-Average-Adder permet d'ajouter la **moyenne de la classe** dans la vue de
 
 Ils ont une colonnes "moyenne de la classe" mais ne fournissent pas la note globale de classe. C'est utile pour avoir une bonne idée de notre performance face aux autres.
 
-![Alt text](images/example.png?raw=true "Exemple")
+![Alt text](images/preview.png?raw=true "Exemple")
 
 Pour ce faire,
 Il suffit simplement d'installer l'extension à partir
@@ -35,4 +35,4 @@ MIT License.
 
 **C'est gratuit, pourquoi pas.**
 
-[extensionWebStore]: <http://daringfireball.net/projects/markdown/>
+[extensionWebStore]: <https://chrome.google.com/webstore/detail/colnet-average-adder/hkckfjikocfcghmfcmhaljibnnlmhdcg>
