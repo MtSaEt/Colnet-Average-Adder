@@ -1,6 +1,6 @@
 (function() {
 
-	// Makes sur we're on the classes page
+	// Makes sure we're on the classes page
 	function proceed() {
 		return window.location.href.indexOf("infocours") > -1;
 	}
@@ -53,7 +53,7 @@
 			};
 			
 			if (totalGradeWeight === 100 || classAvg === 0) {
-				// ALl grades are in, no need to show percentage
+				// All grades are in, no need to show percentage
 				gradeContent += "<b> | Moyenne de la classe : " + gradeFormat(classAvg, true) + "</b>";
 			} else {
 				gradeContent += "<b> | Moyenne de la classe : " + gradeFormat(classAvg, false) + " / " + gradeFormat(totalGradeWeight, false) +
