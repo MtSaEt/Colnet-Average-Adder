@@ -8,7 +8,8 @@ Ils ont une colonnes "moyenne de la classe" mais ne fournissent pas la note glob
 
 Pour ce faire,
 Il suffit simplement d'installer l'extension à partir
--   [Du Chrome Webstore][extensionWebStore]
+-   [Google Chrome][extensionWebStore]
+-   [Mozilla Firefox][extensionMozilla]
 -   De télécharger le fichier en zip pour l'extraire **(Voir installation manuelle pour détails)**
 
 ### Installation manuelle
@@ -36,3 +37,4 @@ MIT License.
 **C'est gratuit, pourquoi pas.**
 
 [extensionWebStore]: <https://chrome.google.com/webstore/detail/colnet-average-adder/hkckfjikocfcghmfcmhaljibnnlmhdcg>
+[extensionMozilla]: <https://addons.mozilla.org/en-US/firefox/addon/colnet-average-adder>
